@@ -1,4 +1,4 @@
-name_of_the_stg="swathi"
+name_of_the_stg=input()
 length=len(name_of_the_stg)
 count=0
 result=""
@@ -7,7 +7,7 @@ while count<(length):
     count=count+1
 print(result)
 
-name="everything is possible"
+name=input()
 revers=""
 for number in range(1,len(name)):
     revers=revers+(name[-number])
