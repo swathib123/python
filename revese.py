@@ -8,7 +8,8 @@ while count<(length):
 print(result)
 
 name=input()
+len_of_name=(len(name)+1)
 revers=""
-for number in range(1,len(name)):
+for number in range(1,(len_of_name)):
     revers=revers+(name[-number])
 print(revers)
