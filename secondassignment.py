@@ -73,6 +73,6 @@ join_string_1=input()
 join_string_2=input()
 print("".join([join_string_1,join_string_2]))
 #concatenate two strings using without join method
-withoutjoin_string_1="swathi"
-withoutjoin_string_2="raju"
+withoutjoin_string_1=input()
+withoutjoin_string_2=input()
 print(withoutjoin_string_1+withoutjoin_string_2)
