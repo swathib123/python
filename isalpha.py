@@ -1,2 +1,3 @@
-n="swath1234"
+n="swathi"
 print(n.isalnum())
+print(n.isalpha())
