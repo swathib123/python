@@ -6,7 +6,6 @@ while count<(length):
     result=result+str(name_of_the_stg[count])
     count=count+1
 print(result)
-
 name=input()
 len_of_name=(len(name)+1)
 revers=""

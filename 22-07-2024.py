@@ -1,4 +1,4 @@
-#insert an element at end of an array
+"""#insert an element at end of an array
 insert_element=eval(input())
 add_element=input()
 insert_element.append(add_element)
@@ -57,4 +57,16 @@ print(sum)
 reverse_list=eval(input())
 reverse_list.reverse()
 print(reverse_list)
-print(reverse_list[::-1])
+print(reverse_list[::-1])"""
+
+#python program to find highest frequency element in list
+s=[1,1,2,2,4,1,1,2,2,2]
+
+highest_nums=0
+frequency_elem=set(s)
+convert_list=(list(frequency_elem))
+for nums in convert_list:
+    count_numbe=(s.count(nums))
+    print(str(nums)+" : "+str(count_numbe))
+    if count_numbe>highest_nums:
+        highest_nums=count_numbe
